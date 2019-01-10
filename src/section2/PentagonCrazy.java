@@ -11,6 +11,9 @@ public class PentagonCrazy {
 	private void makePrettyThings() {
 		// 1. Create a new Robot
 Robot hal = new Robot();
+hal.hide();
+hal.setX(650);
+hal.setY(350);
 		// 3. Put the robot's pen down
 hal.penDown();
 		// 8. Make the robot go at maximum speed (100)
@@ -23,6 +26,7 @@ int sides=5;
 int angle=360/sides;
 		// 7. Use a for loop to repeat steps #2 to #11, 200 times. When this is done you should see a pentagon
 for(int i=0;1<5;i++) {
+	hal.setRandomPenColor();
 			// 2. Move the robot 200 pixels
 	
 			// 10. Change the previous line of code to make the robot move "i" pixels instead of 200 

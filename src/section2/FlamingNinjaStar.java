@@ -14,14 +14,14 @@ Robot bmo= new Robot();
 bmo.hide();
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
 		bmo.setX(650);
-		bmo.setY(300);
+		bmo.setY(290);
 		bmo.penDown();
 		// *15. Make some adjustments to see what other kinds of shapes you can make.
 
 		// 12. Set the robot speed to 100
 bmo.setSpeed(100);
 		// 13. Use a for loop to repeat all of the code below 25 times
-for(int i=0;i<25;i++) {
+for(int i=0;1<25;i++) {
 			// 2. Turn the robot 1/8 of a circle
 		bmo.turn(360/8);
 			// 3. Move the robot 64 pixels
